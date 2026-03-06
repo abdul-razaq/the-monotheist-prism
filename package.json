@@ -1,6 +1,7 @@
 {
   "name": "the-monotheist-prism-website",
   "version": "0.1.0",
+  "description": "The Monotheist Prism - Viewing modern confusion through absolute monotheism",
   "private": true,
   "scripts": {
     "dev": "next dev",

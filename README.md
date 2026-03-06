@@ -1,8 +1,16 @@
 # The Monotheist Prism
 
-An Islamic educational brand that analyzes current events through the lens of absolute monotheism (Tawhid).
+A platform analyzing modern confusion through the lens of absolute monotheism.
 
 **Tagline:** Viewing modern confusion through absolute monotheism.
+
+### Hero: Inverted Prism concept (for developers)
+
+The hero animation is the main brand metaphor. A **normal** prism takes white light and splits it into a rainbow (one → many). Our **inverted** prism does the opposite: **rainbow enters from the left** (scattered perspectives / chaos) and **converges into a single white beam on the right** (clarity / Tawhid). So: many → one.
+
+- **Visual:** 🌈 → ◀ → ⚪ (rainbow → prism → unified white light)
+- **Triangle orientation:** The prism has its **wide base on the LEFT** (where rainbow rays enter) and its **point on the RIGHT** (where the white beam exits). The white ray animates last. Do not flip this when editing `InvertedPrismSVG.tsx`.
+- **Animation order:** (1) Rainbow rays draw in, (2) prism fades in, (3) white beam draws out. This sequence conveys: chaos → tool → clarity.
 
 ## Tech Stack
 
@@ -27,7 +35,8 @@ An Islamic educational brand that analyzes current events through the lens of ab
 ├── components/          # React components
 │   ├── Navbar.tsx
 │   ├── Footer.tsx
-│   └── PrismHero.tsx
+│   ├── PrismHero.tsx       # Hero layout (title, tagline, buttons)
+│   └── InvertedPrismSVG.tsx # Animated prism graphic (point left, base right)
 ├── lib/                 # Utilities & Sanity client
 │   └── sanity.ts
 ├── public/              # Static assets

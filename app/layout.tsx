@@ -19,12 +19,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "The Monotheist Prism | Viewing modern confusion through absolute monotheism",
   description:
-    "Analyzing current events through the lens of pure Tawhid. Islamic educational content for the thoughtful seeker.",
-  keywords: ["Tawhid", "Islamic education", "monotheism", "current events", "The Monotheist Prism"],
+    "Analyzing current events, theology, and modern contradictions through the lens of pure, absolute monotheism. Questions that lead to clarity.",
+  keywords: ["monotheism", "theology", "absolute oneness", "current events", "philosophy", "The Monotheist Prism"],
   authors: [{ name: "The Monotheist Prism" }],
   openGraph: {
-    title: "The Monotheist Prism | Viewing modern confusion through absolute monotheism",
-    description: "Analyzing current events through the lens of pure Tawhid",
+    title: "The Monotheist Prism",
+    description: "Viewing modern confusion through absolute monotheism",
+    url: "https://themonotheistprism.com",
+    siteName: "The Monotheist Prism",
+    locale: "en_US",
     type: "website",
   },
   twitter: {
